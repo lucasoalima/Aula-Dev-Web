@@ -19,12 +19,22 @@
         </header><br><br>
 
         <form>
-            <label for="login">Login:</label><br>
-            <input type="text" id="login" name="login"><br>
-            <label for="password">Senha:</label><br>
-            <input type="text" id="senha" name="senha">
-            <br>
-            <button name="submit">ENVIAR</button>
+            <fieldset>
+                <legend>Registre-se</legend>
+                <label for="login">Login:</label><br>
+                <input type="text" id="login" name="login"><br><br>
+                <label for="password">Senha:</label><br>
+                <input type="password" id="senha" name="senha"><br><br>
+                <label for="data">Data de Nascimento:</label><br>
+                <input type="date" id="data" name="data"><br><br>
+                <label for="category">Categoria de Game Favorita:</label><br>
+                <input type="radio" id="acaoCat" name="categoria"> Ação
+                <input type="radio" id="esporteCat" name="categoria"> Esportes
+                <input type="radio" id="corridaCat" name="categoria"> Corrida
+                <input type="radio" id="rpgCat" name="categoria"> RPG
+                <br><br><br>
+                <button id = "enviar" name="submit">ENVIAR</button>
+            </fieldset>
           </form>
         </div>
     </div>

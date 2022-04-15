@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+   
 }
 body{
     background: #1a0327;
@@ -361,7 +361,7 @@ footer{
     background: #282828;
     display: flex;
     align-items: center;
-    
+   
 }
 .footer-body{
     width: 100%;
@@ -418,7 +418,7 @@ ul li a:hover{
 }
 .menu-categories{
     -webkit-column-count: 2;
-    -moz-column-count: 2; 
+    -moz-column-count: 2;
     column-count: 4;
     color: #ffffff;
 }
@@ -437,4 +437,43 @@ form{
 }
 form button{
     background-color: #fff;
+}
+#enviar{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#enviar:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+fieldset{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    border-color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0.5px;
+}
+fieldset legend{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+form fieldset input{
+    margin-top: 5px;
+    outline: none;
+}
+#data{
+    border: none;
+    padding: 2px;
+    outline: none;
+    font-size: 15px;
 }
