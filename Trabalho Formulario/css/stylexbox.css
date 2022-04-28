@@ -24,14 +24,13 @@ header{
     justify-content: space-between;
 }
 .logo{
-    width: 300px;
+    width: 250px;
     height: 10vh;
     background: #550381;
     display: flex;
     align-items: center;
     justify-content: left;
     color: #fff;
-    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
     padding: 10px;
     line-height: 1.3rem;
 }
@@ -62,13 +61,12 @@ ul.navbar li a:hover:not(.active){
     color: #FEC53A;
 }
 #btn{
-    width: 250px;
+    width: 180px;
     height: 10vh;
     background: #FEC53A;
     color: #000;
     outline: none;
     border: none;
-    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
     font-size: 1.2rem;
     font-weight: bold;
     text-align: right;
@@ -90,7 +88,6 @@ ul.navbar li a:hover:not(.active){
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgba(255, 255, 255, 0.02);
     border-radius: 5px;
     padding:10px;
     text-align: center;
@@ -102,7 +99,6 @@ ul.navbar li a:hover:not(.active){
 .content-desc img{
     width: 1028px;
     height: 100%;
-    border: 2px solid black;
 }
 #btn2{
     width: 350px;
@@ -114,7 +110,6 @@ ul.navbar li a:hover:not(.active){
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 15px;
-    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
     border-radius: 20px;
     text-align: left;
 }
@@ -152,44 +147,84 @@ ul.navbar li a:hover:not(.active){
 .section-1-img .img{
     width: 100px;
     height: 130px;
-    background: url(../images/ghostoftsushima.png);
+    background: url(../images/forza.jpg);
     background-size: cover;
     background-position: center;
     margin-right: 10px;
     border-radius: 10px;
 }
 .section-1-img .img-2{
-    background: url(../images/spiderman.png);
+    background: url(../images/ki.png);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-3{
-    background: url(../images/eldenring2.jpg);
+    background: url(../images/sea.jpg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-4{
-    background: url(../images/farcry.jpg);
+    background: url(../images/gears.jpg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-5{
-    background: url(../images/uncharted.jpg);
+    background: url(../images/halo.jpg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img  .img-6{
-    background: url(../images/tlou.png);
+    background: url(../images/ryse.jpg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img .img-7{
-    background: url(../images/dmc5.jpg);
+    background: url(../images/gears5.jpeg);
     background-size: cover;
     background-position: center;
 }
 .section-1-img .img-8{
-    background: url(../images/control.png);
+    background: url(../images/sunset.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-9{
+    background: url(../images/stalker.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-10{
+    background: url(../images/hello.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-11{
+    background: url(../images/saintsrow.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-12{
+    background: url(../images/dolmen.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-13{
+    background: url(../images/sniper.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-14{
+    background: url(../images/spellforce.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-15{
+    background: url(../images/thequarry.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-16{
+    background: url(../images/capcom.jfif);
     background-size: cover;
     background-position: center;
 }

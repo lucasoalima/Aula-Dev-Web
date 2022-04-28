@@ -36,14 +36,14 @@ header{
     justify-content: space-between;
 }
 .logo{
-    width: 300px;
+    width: 250px;
     height: 10vh;
     background: #550381;
     display: flex;
     align-items: center;
     justify-content: left;
     color: #fff;
-    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    clip-path: circle(0 0, 100% 0, 64% 100%, 0% 100%);
     padding: 10px;
     line-height: 1.3rem;
 }
@@ -74,13 +74,12 @@ ul.navbar li a:hover:not(.active){
     color: #FEC53A;
 }
 #btn{
-    width: 250px;
+    width: 180px;
     height: 10vh;
     background: #FEC53A;
     color: #000;
     outline: none;
     border: none;
-    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
     font-size: 1.2rem;
     font-weight: bold;
     text-align: right;
@@ -132,7 +131,6 @@ ul.navbar li a:hover:not(.active){
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 15px;
-    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
     border-radius: 20px;
     text-align: left;
 }
