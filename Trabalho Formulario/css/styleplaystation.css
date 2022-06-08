@@ -87,7 +87,7 @@ ul.navbar li a:hover:not(.active){
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 5px;
     padding:10px;
@@ -97,10 +97,6 @@ ul.navbar li a:hover:not(.active){
 .content-wrapper h1{
     font-size: 2rem;
     color: dodgerblue;
-}
-.content-desc img{
-    width: 1028px;
-    height: 100%;
 }
 #btn2{
     width: 350px;
@@ -174,7 +170,8 @@ ul.navbar li a:hover:not(.active){
     font-weight: 400;
 }
 .section-1-img{
-    display: flex;
+        display: flex;
+        justify-content: space-evenly;
 }
 .section-1-img .img{
     width: 100px;
@@ -392,8 +389,8 @@ ul li a:hover{
     color: #ffffff;
 }
 .content-desc img{
-    height: 450px;
-    width: 1025px;
+    height: 100%;
+    width: 100%;
 }
 .container-playstation{
     width: 100%;

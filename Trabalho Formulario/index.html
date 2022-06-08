@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="store.js" async></script>
+    <!-- FAZER SCRIPT PRA DEIXAR A PAGINA SPA -->
+    <!-- ARRUMAR FUNDO DA LOJA -->
 </head>
 <body>
     <div class="container">
@@ -18,7 +22,6 @@
             <ul class="navbar">
                 <li><a href="xbox.html">XBOX</a></li>
                 <li><a href="playstation.html">PS4</a></li>
-                <li><a href="#">PC</a></li>
                 <li><a href="nintendo.html">NINTENDO</a></li>
             </ul>
             <a href="form.html"><button type="button" id="btn">LOGIN</button></a>
@@ -39,7 +42,7 @@
     <div class="logo-section">
         <i class="fa fa-gamepad" style="font-size:48px;color:rgb(255, 255, 255)"></i>
     </div>
-    
+
     <section class="section-1">
         <div class="section-1-wrapper">  
             <br><h1>DESTAQUES</h1>
@@ -58,13 +61,104 @@
         
         <div class="game-categories">
             <h1>TOP JOGOS RECOMENDADOS PARA VOCÊ</h1>
-            <div class="game-wrapper">
-                <a href="#"><div class="gw gw-1"></div></a>
+            <section aria-label="GamesRecomendados">
+                <div class="carousel" data-carousel>
+                  <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                  <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                  <ul data-slides>
+                    <li class="slide" data-active>
+                      <img class="gw gw-1" a href="playstation.html">
+                    </li>
+                    <li class="slide">
+                        <img class="gw gw-2">
+                    </li>
+                    <li class="slide">
+                        <img class="gw gw-3">
+                    </li>
+                    <li class="slide">
+                        <img class="gw gw-4">
+                    </li>
+                  </ul>
+                </div>
+              </section>
+                <!-- <a href="#"><div class="gw gw-1"></div></a>
                 <a href="#"><div class="gw gw-2"></div></a>
                 <a href="#"><div class="gw gw-3"></div></a>
-                <a href="#"><div class="gw gw-4"></div></a>
+                <a href="#"><div class="gw gw-4"></div></a> -->
+        </div>
+    </section>
+
+    <section class="container-loja content-section">
+        <h2 class="section-header">LOJA</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Animal Crossing</span>
+                <img class="shop-item-image" src="images/animalcrossing.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Devil May Cry 5</span>
+                <img class="shop-item-image" src="images/dmc5.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Control</span>
+                <img class="shop-item-image" src="images/control.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Far Cry 6</span>
+                <img class="shop-item-image" src="images/farcry.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
             </div>
         </div>
+    </section>
+    <section class="container-loja content-section">
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Forza Horizon 5</span>
+                <img class="shop-item-image" src="images/forza.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Ghost Of Tsushima</span>
+                <img class="shop-item-image" src="images/ghostoftsushima.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADICIONAR AO CARRINHO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-loja content-section">
+        <h2 class="section-header">CARRINHO</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Jogo</span>
+            <span class="cart-price cart-header cart-column">Preço</span>
+            <span class="cart-quantity cart-header cart-column">Quantidade</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">COMPRAR</button>
     </section>
     
     <div class="section-3">
