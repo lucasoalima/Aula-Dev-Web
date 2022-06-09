@@ -199,7 +199,6 @@ ul.navbar li a:hover:not(.active){
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
 }
 .section-1-wrapper{
     width: 70%;
@@ -586,6 +585,7 @@ ul li a:hover{
     flex-grow: 1;
     color: #eee;
     font-size: large;
+    margin-right: 10px;
 }
 
 .shop-items {
@@ -704,6 +704,7 @@ span{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 2.5em;
+    background-color: rgb(22, 21, 21);
 }
 
 /* daqui pra baixo arrumar */
@@ -730,6 +731,7 @@ span{
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+    margin-top: 15px;
 }
 .section-header {
     font-family: "Metal Mania";
