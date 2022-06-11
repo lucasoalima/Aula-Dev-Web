@@ -35,10 +35,10 @@ This is my repository used for college projects. **Subject**: Web Development
       <img src="images/javascript.svg" alt="Javascript" width="30" height="30"/>
    </a>
    <a href="https://https://developer.mozilla.org/pt-BR/docs/Web/CSS/">
-      <img src="images/css3.svg" alt="Typescript" width="30" height="30"/>
+      <img src="images/css3.svg" alt="css3" width="30" height="30"/>
    </a>
    <a href="https://git-scm.com/doc/">
-      <img src="images/git.svg" alt="Postman" width="30" height="30"/>
+      <img src="images/git.svg" alt="git" width="30" height="30"/>
    </a>
    <a href="https://github.com/">
       <img src="images/github.svg" alt="Github" width="30" height="30"/>
