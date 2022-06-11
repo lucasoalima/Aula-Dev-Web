@@ -29,7 +29,7 @@ This is my repository used for college projects. **Subject**: Web Development
 
 <p align="center">
    <a href="https://www.oracle.com/br/java/">
-      <img src="images/java.svg" alt="Java" width="30" height="30"/>
+      <img src="images/html-5.svg" alt="Java" width="30" height="30"/>
    </a>
    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
       <img src="images/javascript.svg" alt="Javascript" width="30" height="30"/>
