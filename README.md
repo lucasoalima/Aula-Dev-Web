@@ -21,6 +21,7 @@
 
 This is my repository used for college projects. **Subject**: Web Development
 
+In this folder you can find a project about a Game Store.
 
 ---
 
