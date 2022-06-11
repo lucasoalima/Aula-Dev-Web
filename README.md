@@ -46,6 +46,13 @@ In this folder you can find a project about a Game Store.
    </a> 
 </p>
 
+
+## 🚧 Projects in this repository:
+<ul>
+  <li>
+    Game Store Web Site
+  </li>
+ </ul>
 <!-- ---
 
 <h1>🤖 Preview </h1>
