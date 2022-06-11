@@ -1,8 +1,8 @@
 
-> <div align="center">
-  <a href="https://github.com/ljanotte">
+<!-- > <div align="center">
+  <a href="https://github.com">
     <img src="images/logo.svg" alt="Logo" width="160" height="80">
-  </a>
+  </a> -->
 
   <h1 align="center">
     Web Development Vanilla
@@ -28,7 +28,7 @@ This is my repository used for college projects. **Subject**: Web Development
 
 
 <p align="center">
-   <a href="https://www.oracle.com/br/java/">
+   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
       <img src="images/html-5.svg" alt="Java" width="30" height="30"/>
    </a>
    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
