@@ -1,85 +1,38 @@
-
-<!-- > <div align="center">
-  <a href="https://github.com">
-    <img src="images/logo.svg" alt="Logo" width="160" height="80">
-  </a> -->
-
-  <h1 align="center">
-    Web Development Vanilla
-  </h1>
-
-</div>
-
-<!--  <h3 align="center">
-
-
-</h3>  -->
-
----
-
-## 📝 About:
-
-This is my repository used for college projects. **Subject**: Web Development
-
-In this folder you can find a project about a Game Store.
-
----
-
-## 💻 Languages and 🛠 Tools:
-
+<h1 align="center">Aula Dev Web — HTML/CSS/JS Coursework</h1>
 
 <p align="center">
-   <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
-      <img src="images/html-5.svg" alt="Java" width="30" height="30"/>
-   </a>
-   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-      <img src="images/javascript.svg" alt="Javascript" width="30" height="30"/>
-   </a>
-   <a href="https://https://developer.mozilla.org/pt-BR/docs/Web/CSS/">
-      <img src="images/css3.svg" alt="css3" width="30" height="30"/>
-   </a>
-   <a href="https://git-scm.com/doc/">
-      <img src="images/git.svg" alt="git" width="30" height="30"/>
-   </a>
-   <a href="https://github.com/">
-      <img src="images/github.svg" alt="Github" width="30" height="30"/>
-   </a> 
+  Front-end web coursework: a small multi-page site (a game-console themed store with a
+  form) built with plain <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b>.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
+</p>
 
-## 🚧 Projects in this repository:
-<ul>
-  <li>
-    Game Store Web Site
-  </li>
- </ul>
-<!-- ---
+> 🖥️ Add a screenshot of the page here (e.g. `images/screenshot.png`).
 
-<h1>🤖 Preview </h1>
-<img src=" -->
+## 📝 About
+Static web exercises from my Web Development classes, including a themed store layout,
+console pages (Xbox / PlayStation / Nintendo) and an HTML form.
 
-<!-- ## Como Baixar
-
+## 🚀 How to run
+Open the HTML file directly in a browser, or serve the folder:
 ```bash
+cd "Trabalho Formulario"
+# option A: just open index.html in the browser
+# option B: a quick local server
+npx serve .       # or: python -m http.server
+```
 
-# Instruções
-
-$ Comandos
-
-
-``` -->
+## 📁 Structure
+```
+Aula-Dev-Web/
+├── Trabalho Formulario/   # index.html, form.html, xbox/playstation/nintendo pages, css/, js
+├── Formulario/
+└── images/
+```
 
 ---
-
-<h3 align="center">
-
-  Lucas Soares de Lima
-<br/>
-
-  <a align="center">
-   
-   [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/lucasoalima/)
-&nbsp;
-  [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/lucasoalima)
-  </a>
-</h3>
+<p align="center"><a href="https://www.linkedin.com/in/lucasoalima/">LinkedIn</a> &middot; <a href="https://github.com/lucasoalima">GitHub</a></p>
